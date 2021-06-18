@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 body {
   font-size: 15pt;
   margin: 0;
@@ -173,7 +174,6 @@ a {
   font-size: 11pt;
   font-family: 'Times New Roman', Times, serif;
 }
-
 
 @keyframes rotate {
   0% {
