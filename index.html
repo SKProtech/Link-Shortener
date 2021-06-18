@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en_US">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="fast and easy long link Shortener" />
-  <title>Link Shortener</title>
+  <meta name="description" content="The perfect free URL shortener for transforming long, ugly links into nice, memorable and trackable short URLs. Use it to shorten links." />
+    <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:title" content="URL Shortener | Free Link Shortener"> 
+  <meta property="og:description" content="The perfect free URL shortener for transforming long, ugly links into nice, memorable and trackable short URLs. Use it to shorten links."> 
+  <meta property="og:url" content="https://proshortener.netlify.app/"> 
+  <meta property="og:site_name" content="UShortener"> 
+  <meta property="article:modified_time" content="2021-06-10T13:39:02+00:00">
+  
+  <title>URL Shortener | Free Link Shortener</title>
   <!-- HTML -->
   <!-- Custom Styles -->
   <link rel="stylesheet" href="maicons.css">
@@ -29,9 +37,15 @@
         <div class="loading"></div>
       </div>
       <div class="col-result">
-        <a id="shorted" href="#">shorted url</a>
+        <a id="shorted" href="#">Null</a>
         <input type="button" id="copy" value="Copy" />
       </div>
+    </div>
+  </div>
+  
+  <div class="toast-bg">
+    <div class="toast">
+      <p id="toast-msg">toast example text</p>
     </div>
   </div>
   <footer>

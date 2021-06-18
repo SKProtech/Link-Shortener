@@ -150,6 +150,31 @@ a {
   display: none;
 }
 
+.toast-bg {
+  transition: 0.5s;
+  padding: 10px;
+  width: max-content;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.toast {
+  text-align: center;
+  color: #fff;
+  font-size: 11pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
